@@ -6,11 +6,11 @@ This repository contains simple projects that focus on practicing programming co
 
 📂 Projects
 
-Project| Description
-🧮 Calculator| Performs basic arithmetic operations.
-🔐 Password Generator| Generates random passwords based on selected options.
-🕐 Analog Clock| Displays the current time with an analog clock.
-📝 To-Do List| Allows users to add and manage tasks.
+Project
+🧮 Calculator
+🔐 Password Generator
+🕐 Analog Clock
+📝 To-Do List
 
 «More projects will be added as I continue learning and building.»
 
