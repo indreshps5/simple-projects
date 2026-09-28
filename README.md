@@ -6,13 +6,11 @@ This repository contains simple projects that focus on practicing programming co
 
 📂 Projects
 
-Project| Description| Technologies
-🧮 Calculator| A simple calculator for performing basic arithmetic operations.| HTML, CSS, JavaScript
-🔐 Password Generator| A simple password generator that creates random and secure passwords based on the selected length and character types.|
-HTML, CSS, JavaScript
-🕐 Analog Clock
-A real-time analog clock that displays the current time using rotating hour, minute, and second hands.|
-HTML, CSS, JavaScript
+Project| Description
+🧮 Calculator| Performs basic arithmetic operations.
+🔐 Password Generator| Generates random passwords based on selected options.
+🕐 Analog Clock| Displays the current time with an analog clock.
+📝 To-Do List| Allows users to add and manage tasks.
 
 «More projects will be added as I continue learning and building.»
 
