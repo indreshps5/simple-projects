@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.todo-container {
+    width: 100%;
+    max-width: 500px;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Header */
+
+.todo-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.todo-header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.todo-header p {
+    color: #777;
+}
+
+
+/* Input section */
+
+.task-input-section {
+    display: flex;
+    gap: 10px;
+}
+
+#taskInput {
+    flex: 1;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    outline: none;
+}
+
+#taskInput:focus {
+    border-color: #555;
+}
+
+#addButton {
+    padding: 12px 18px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #333;
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+#addButton:hover {
+    background-color: #555;
+}
+
+
+/* Task section */
+
+.task-section {
+    margin-top: 30px;
+}
+
+.task-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.task-section-header h2 {
+    font-size: 20px;
+}
+
+#taskCount {
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* Task list */
+
+#taskList {
+    list-style: none;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    background-color: #f4f4f4;
+
+    border-radius: 6px;
+}
+
+.task span {
+    font-size: 16px;
+}
+
+.deleteButton {
+    border: none;
+
+    padding: 7px 12px;
+
+    border-radius: 5px;
+
+    background-color: #d9534f;
+    color: white;
+
+    cursor: pointer;
+}
+
+.deleteButton:hover {
+    background-color: #c9302c;
+}
+
+
+/* Empty message */
+
+#emptyMessage {
+    text-align: center;
+
+    color: #888;
+
+    margin-top: 20px;
+}
