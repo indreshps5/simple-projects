@@ -36,12 +36,9 @@ The purpose of this repository is to:
 
 Some future projects may include:
 
-- To-Do List
 - Quiz Game
 - Weather App
-- Password Generator
 - Stopwatch
-- Expense Tracker
 - More JavaScript and web development projects
 
 👨‍💻 Author
